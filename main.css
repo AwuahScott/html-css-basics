@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+   
+}
+
+h1{
+    text-align: center;
+}
+#navbar{
+    padding: 8px;
+    margin: 0;
+
+}
+
+/* #logo{
+    height: 30px;
+} */
+#banner{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.location{
+    color: #696969;
+    margin-bottom: 16px;
+}
+
+/* ABOUT SECTION */
+
+.about{
+    display: flex;
+    max-width: 800px;
+    /* centering the section */
+    margin: 0 auto;
+    padding: 8px;
+    margin-top: 2rem;
+    
+}
+
+.description{
+    width: 50%;
+    padding-right: 8px;
+}
+.description p:nth-child(2){
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.description ol{
+    margin: 16px 0 16px 0;
+    padding-left: 40px;
+}
+
+.team{
+    width: 50%;
+}
+
+#team-image{
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* JOBS */
+
+h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+    margin-top: 2rem;
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.apply{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer{
+    background-color: ghostwhite;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.links{
+    padding: 8px;
+   
+}
+
+.links li{
+    list-style: none;
+    padding: 1rem;
+    display: inline;
+}
+
+span:last-child{
+    color: #696969;
+}
